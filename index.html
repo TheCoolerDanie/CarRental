@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental</title>
+</head>
+<style>
+    fieldset {
+        style: block;
+        width: 400px;
+        border: solid black 5px;
+    }
+</style>
+<body>
+    <form>
+
+        <fieldset>
+            
+            <h1>ACME Car Rental Agency</h1>
+            Pickup Date: <input type="date" name="pickup" id="pickup" value="pickup">
+            <br>Number of Days: <input type="number" name="days" id="days" value="days">
+            <br>Options
+            <br><input type="checkbox" name="elecToll" id="elecToll" value="elecToll"> Electronic Toll Tag ($3.95/day)
+            <br><input type="checkbox" name="gps" id="gps" value="gps"> GPS ($2.95/day)
+            <br><input type="checkbox" name="roadside" id="roadside" value="roadside"> Roadside Assistance ($2.95/day)
+            Under 25
+            <br><input type="radio" name="age" id="age" value="age"> No
+            <input type="radio" name="age" id="age" value="age"> Yes
+            <br><button>Estimate Total Cost</button>
+           <p>Car rental: xxx.xx<br>
+            Options: xx.xx<br>
+            Under 25 surcharge: xx.xx<br>
+            Total due: xxx.xx<br>
+           </p>
+        </fieldset>
+    </form>
+</body>
+</html>
